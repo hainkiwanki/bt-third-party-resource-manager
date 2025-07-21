@@ -2,8 +2,7 @@
     <v-app>
         <v-main>
             <v-container>
-                <h1>Home View</h1>
-                <p>This is the main page</p>
+                <h1>Welcome to My Tool</h1>
             </v-container>
         </v-main>
     </v-app>
