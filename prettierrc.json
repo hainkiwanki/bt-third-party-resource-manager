@@ -11,5 +11,10 @@
                 "singleQuote": false
             }
         }
-    ]
+    ],
+
+    "plugins": ["@trivago/prettier-plugin-sort-imports"],
+    "importOrder": ["^vue", "^@?\\w", "^@/.*", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
 }
