@@ -1,15 +1,16 @@
 {
-    "name": "binki-tools",
+    "name": "vue3-tool-template",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.2.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc -b && vite build",
-        "preview": "vite preview",
+        "fix:style": "stylelint \"src/**/*.{vue,scss,css}\" --fix",
         "format:imports": "prettier --write .",
         "lint:style": "stylelint \"src/**/*.{vue,scss,css}\"",
-        "fix:style": "stylelint \"src/**/*.{vue,scss,css}\" --fix"
+        "preview": "vite preview",
+        "set:name": "tsx scripts/set-package-name.mts"
     },
     "dependencies": {
         "vue": "^3.5.17",
@@ -19,7 +20,7 @@
     "devDependencies": {
         "@mdi/font": "^7.4.47",
         "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-        "@types/node": "^24.0.15",
+        "@types/node": "^24.1.0",
         "@vitejs/plugin-vue": "^6.0.0",
         "@vue/tsconfig": "^0.7.0",
         "postcss-html": "^1.8.0",
