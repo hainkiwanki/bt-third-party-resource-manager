@@ -2,8 +2,8 @@
     <v-app-bar flat color="white" elevation="1">
         <v-container class="d-flex align-center justify-space-between">
             <div class="d-flex align-center gap-2">
-                <v-icon class="me-2" icon="mdi-scissors-cutting" size="24" />
-                <span class="text-body-1 font-weight-medium">{{ appTitle }}</span>
+                <v-icon class="me-2" :icon size="24" />
+                <span>{{ appTitle }}</span>
             </div>
 
             <v-btn icon variant="text">
@@ -16,5 +16,6 @@
 <script setup lang="ts">
 defineProps<{
     appTitle: string;
+    icon: string;
 }>();
 </script>
