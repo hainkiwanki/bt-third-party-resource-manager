@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <app-bar :app-title="'Ïmage Slicer'"></app-bar>
+        <app-bar :app-title="'Third Party Asset Manager'"></app-bar>
         <v-main>
             <v-container>
                 <h1 class="text-h4 mb-4">Welcome to Your Tool</h1>
