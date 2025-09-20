@@ -12,8 +12,8 @@
         "noUncheckedSideEffectImports": true,
         "baseUrl": ".",
         "paths": {
-            "@/*": ["frontend/src/*"]
+            "@/*": ["./src/*"]
         }
     },
-    "include": ["frontend/src/**/*.ts", "frontend/src/**/*.mts", "frontend/src/**/*.tsx", "frontend/src/**/*.vue"]
+    "include": ["./src/**/*.ts", "./src/**/*.mts", "./src/**/*.tsx", "./src/**/*.vue"]
 }

@@ -3,7 +3,6 @@
         <v-textarea label="Paste links here" v-model="pastedText" rows="6" />
 
         <v-file-input label="Upload .txt or .csv file" accept=".txt,.csv" @change="handleFileUpload" />
-
         <v-btn @click="emitLinks">Parse Links</v-btn>
     </div>
 </template>

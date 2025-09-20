@@ -1,10 +1,12 @@
 {
     "prettier.configPath": "prettierrc.json",
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    "files.eol": "\n",
     "editor.tabSize": 4,
     "stylelint.validate": ["vue", "scss", "css"],
-
+    "files.eol": "\n",
+    "files.associations": {
+        "*.mts": "typescript"
+    },
     "[javascript][json][jsonc][typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
@@ -12,14 +14,6 @@
             "source.fixAll": "explicit"
         }
     },
-    "[typescript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": "explicit"
-        }
-    },
-    "testing.automaticallyOpenTestResults": "openOnTestFailure",
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
