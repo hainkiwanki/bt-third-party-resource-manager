@@ -1,7 +1,7 @@
 {
-    "name": "vue3-tool-template",
+    "name": "bt-third-party-resource-manager",
     "private": true,
-    "version": "0.2.0",
+    "version": "0.3.1",
     "type": "module",
     "scripts": {
         "dev": "vite",
